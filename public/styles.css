@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: 'Press Start 2P', cursive; /* Use a pixelated font */
+    background-color: #282c34; /* Dark background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #ffcc00; /* Yellow border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.5); /* Glow effect */
+}
+
+#timer {
+    background-color: #3b3f47; /* Slightly lighter background for the timer */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#display {
+    font-size: 64px; /* Larger font size for the timer display */
+    margin: 20px 0;
+    padding: 10px;
+    border: 3px solid #ffcc00; /* Yellow border around the display */
+    border-radius: 5px;
+    background-color: #2c2f36; /* Darker background for the display */
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px; /* Larger button text */
+    background-color: #ffcc00; /* Yellow button background */
+    color: #282c34; /* Dark text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}
+
+button:active {
+    background-color: #cc9900; /* Even darker yellow when clicked */
+}
